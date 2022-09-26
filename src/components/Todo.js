@@ -48,7 +48,7 @@ const Todo = () => {
       <div>
         {!isLoading && (
           <div>
-            {data.map((todo) => (
+            {data?.map((todo) => (
               <div key={todo.id}>
                 <input
                   type="checkbox"

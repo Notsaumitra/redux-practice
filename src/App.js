@@ -42,11 +42,10 @@ function App() {
         <Route path="/" element={<Todos />} />
         <Route path="/counter" element={<Counter />} />
       </Routes>
-      {/* <Parent />
-      <Counter />
+      <Parent />
+      {/*<Counter />
       <Posts />
       <AddPostForm /> */}
-      <Todos />
     </>
   );
 }
